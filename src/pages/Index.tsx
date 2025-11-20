@@ -295,7 +295,6 @@ const Index = () => {
                   {[
                     { icon: 'Mail', label: 'Email', value: 'info@queen-path.ru' },
                     { icon: 'Phone', label: 'Телефон', value: '+7 (999) 123-45-67' },
-                    { icon: 'Instagram', label: 'Instagram', value: '@queen_path' },
                     { icon: 'Send', label: 'Telegram', value: '@queen_path_bot' }
                   ].map((contact, idx) => (
                     <div key={idx} className="flex items-center gap-4 p-4 rounded-xl bg-accent/30 hover:bg-accent/50 transition-colors">
